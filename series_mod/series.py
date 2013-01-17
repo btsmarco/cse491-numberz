@@ -1,11 +1,13 @@
 # this is an implementation of the 'series' functionality using a module.
 
-n = 0
+global n 
+
+print n
 
 def add_one():
-    global n
-    n = n + 1
-    return n
+	global n
+   n = n + 1
+   return n
 
 # additional questions to address:
 #  - what does 'global' do, above?

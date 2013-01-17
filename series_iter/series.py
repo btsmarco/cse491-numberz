@@ -4,11 +4,14 @@
 
 class adder(object):
     def __init__(self):
-        self.n = 0
+		print "I am in init"
+		self.n = 0
 
     def __iter__(self):
-        return self
+		print "I am in iter"
+		return self
 
     def next(self):
-        self.n += 1
-        return self.n
+		print "I am in next"
+		self.n += 1
+		return self.n
