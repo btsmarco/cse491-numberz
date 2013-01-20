@@ -10,7 +10,7 @@ def _is_prime(primes, n):
     return True
 
 def next():
-    start = _primeslist[-1] + 1
+    start = _primeslist[-1] + 1 #takes the last element in the list and adds one
     while 1:
         if _is_prime(_primeslist, start):
             _primeslist.append(start)
