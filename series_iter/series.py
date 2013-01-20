@@ -15,3 +15,4 @@ class adder(object):
         print "next"
         self.n += 1
         return self.n
+		self.n = 0

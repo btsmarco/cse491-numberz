@@ -1,5 +1,5 @@
-import series_mod
+import series
 
-print series_mod.add_one()
-print series_mod.add_one()
-print series_mod.add_one()
+print series.add_one()
+print series.add_one()
+print series.add_one()
